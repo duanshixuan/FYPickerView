@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA149E4B1F418E4E00DEFF5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA149E4A1F418E4E00DEFF5A /* main.m */; };
+		AA149E4E1F418E4E00DEFF5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA149E4D1F418E4E00DEFF5A /* AppDelegate.m */; };
+		AA149E511F418E4E00DEFF5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA149E501F418E4E00DEFF5A /* ViewController.m */; };
+		AA149E541F418E4E00DEFF5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA149E521F418E4E00DEFF5A /* Main.storyboard */; };
+		AA149E561F418E4E00DEFF5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA149E551F418E4E00DEFF5A /* Assets.xcassets */; };
+		AA149E591F418E4E00DEFF5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA149E571F418E4E00DEFF5A /* LaunchScreen.storyboard */; };
+		AA149E641F418E4E00DEFF5A /* FYPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA149E631F418E4E00DEFF5A /* FYPickerViewTests.m */; };
+		AA149E6F1F418E4E00DEFF5A /* FYPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA149E6E1F418E4E00DEFF5A /* FYPickerViewUITests.m */; };
+		AA149E7E1F418E7900DEFF5A /* FYPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA149E7D1F418E7900DEFF5A /* FYPickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA149E601F418E4E00DEFF5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA149E3E1F418E4E00DEFF5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA149E451F418E4E00DEFF5A;
+			remoteInfo = FYPickerView;
+		};
+		AA149E6B1F418E4E00DEFF5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA149E3E1F418E4E00DEFF5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA149E451F418E4E00DEFF5A;
+			remoteInfo = FYPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA149E461F418E4E00DEFF5A /* FYPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA149E4A1F418E4E00DEFF5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA149E4C1F418E4E00DEFF5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA149E4D1F418E4E00DEFF5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA149E4F1F418E4E00DEFF5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA149E501F418E4E00DEFF5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA149E531F418E4E00DEFF5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA149E551F418E4E00DEFF5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA149E581F418E4E00DEFF5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA149E5A1F418E4E00DEFF5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA149E5F1F418E4E00DEFF5A /* FYPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA149E631F418E4E00DEFF5A /* FYPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYPickerViewTests.m; sourceTree = "<group>"; };
+		AA149E651F418E4E00DEFF5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA149E6A1F418E4E00DEFF5A /* FYPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA149E6E1F418E4E00DEFF5A /* FYPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYPickerViewUITests.m; sourceTree = "<group>"; };
+		AA149E701F418E4E00DEFF5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA149E7C1F418E7900DEFF5A /* FYPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYPickerView.h; sourceTree = "<group>"; };
+		AA149E7D1F418E7900DEFF5A /* FYPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYPickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA149E431F418E4E00DEFF5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA149E5C1F418E4E00DEFF5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA149E671F418E4E00DEFF5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA149E3D1F418E4E00DEFF5A = {
+			isa = PBXGroup;
+			children = (
+				AA149E481F418E4E00DEFF5A /* FYPickerView */,
+				AA149E621F418E4E00DEFF5A /* FYPickerViewTests */,
+				AA149E6D1F418E4E00DEFF5A /* FYPickerViewUITests */,
+				AA149E471F418E4E00DEFF5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA149E471F418E4E00DEFF5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA149E461F418E4E00DEFF5A /* FYPickerView.app */,
+				AA149E5F1F418E4E00DEFF5A /* FYPickerViewTests.xctest */,
+				AA149E6A1F418E4E00DEFF5A /* FYPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA149E481F418E4E00DEFF5A /* FYPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				AA149E4C1F418E4E00DEFF5A /* AppDelegate.h */,
+				AA149E4D1F418E4E00DEFF5A /* AppDelegate.m */,
+				AA149E4F1F418E4E00DEFF5A /* ViewController.h */,
+				AA149E501F418E4E00DEFF5A /* ViewController.m */,
+				AA149E7C1F418E7900DEFF5A /* FYPickerView.h */,
+				AA149E7D1F418E7900DEFF5A /* FYPickerView.m */,
+				AA149E521F418E4E00DEFF5A /* Main.storyboard */,
+				AA149E551F418E4E00DEFF5A /* Assets.xcassets */,
+				AA149E571F418E4E00DEFF5A /* LaunchScreen.storyboard */,
+				AA149E5A1F418E4E00DEFF5A /* Info.plist */,
+				AA149E491F418E4E00DEFF5A /* Supporting Files */,
+			);
+			path = FYPickerView;
+			sourceTree = "<group>";
+		};
+		AA149E491F418E4E00DEFF5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA149E4A1F418E4E00DEFF5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA149E621F418E4E00DEFF5A /* FYPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA149E631F418E4E00DEFF5A /* FYPickerViewTests.m */,
+				AA149E651F418E4E00DEFF5A /* Info.plist */,
+			);
+			path = FYPickerViewTests;
+			sourceTree = "<group>";
+		};
+		AA149E6D1F418E4E00DEFF5A /* FYPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA149E6E1F418E4E00DEFF5A /* FYPickerViewUITests.m */,
+				AA149E701F418E4E00DEFF5A /* Info.plist */,
+			);
+			path = FYPickerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA149E451F418E4E00DEFF5A /* FYPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA149E731F418E4E00DEFF5A /* Build configuration list for PBXNativeTarget "FYPickerView" */;
+			buildPhases = (
+				AA149E421F418E4E00DEFF5A /* Sources */,
+				AA149E431F418E4E00DEFF5A /* Frameworks */,
+				AA149E441F418E4E00DEFF5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYPickerView;
+			productName = FYPickerView;
+			productReference = AA149E461F418E4E00DEFF5A /* FYPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA149E5E1F418E4E00DEFF5A /* FYPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA149E761F418E4E00DEFF5A /* Build configuration list for PBXNativeTarget "FYPickerViewTests" */;
+			buildPhases = (
+				AA149E5B1F418E4E00DEFF5A /* Sources */,
+				AA149E5C1F418E4E00DEFF5A /* Frameworks */,
+				AA149E5D1F418E4E00DEFF5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA149E611F418E4E00DEFF5A /* PBXTargetDependency */,
+			);
+			name = FYPickerViewTests;
+			productName = FYPickerViewTests;
+			productReference = AA149E5F1F418E4E00DEFF5A /* FYPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA149E691F418E4E00DEFF5A /* FYPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA149E791F418E4E00DEFF5A /* Build configuration list for PBXNativeTarget "FYPickerViewUITests" */;
+			buildPhases = (
+				AA149E661F418E4E00DEFF5A /* Sources */,
+				AA149E671F418E4E00DEFF5A /* Frameworks */,
+				AA149E681F418E4E00DEFF5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA149E6C1F418E4E00DEFF5A /* PBXTargetDependency */,
+			);
+			name = FYPickerViewUITests;
+			productName = FYPickerViewUITests;
+			productReference = AA149E6A1F418E4E00DEFF5A /* FYPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA149E3E1F418E4E00DEFF5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = fangyou;
+				TargetAttributes = {
+					AA149E451F418E4E00DEFF5A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					AA149E5E1F418E4E00DEFF5A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA149E451F418E4E00DEFF5A;
+					};
+					AA149E691F418E4E00DEFF5A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA149E451F418E4E00DEFF5A;
+					};
+				};
+			};
+			buildConfigurationList = AA149E411F418E4E00DEFF5A /* Build configuration list for PBXProject "FYPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA149E3D1F418E4E00DEFF5A;
+			productRefGroup = AA149E471F418E4E00DEFF5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA149E451F418E4E00DEFF5A /* FYPickerView */,
+				AA149E5E1F418E4E00DEFF5A /* FYPickerViewTests */,
+				AA149E691F418E4E00DEFF5A /* FYPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA149E441F418E4E00DEFF5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA149E591F418E4E00DEFF5A /* LaunchScreen.storyboard in Resources */,
+				AA149E561F418E4E00DEFF5A /* Assets.xcassets in Resources */,
+				AA149E541F418E4E00DEFF5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA149E5D1F418E4E00DEFF5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA149E681F418E4E00DEFF5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA149E421F418E4E00DEFF5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA149E511F418E4E00DEFF5A /* ViewController.m in Sources */,
+				AA149E7E1F418E7900DEFF5A /* FYPickerView.m in Sources */,
+				AA149E4E1F418E4E00DEFF5A /* AppDelegate.m in Sources */,
+				AA149E4B1F418E4E00DEFF5A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA149E5B1F418E4E00DEFF5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA149E641F418E4E00DEFF5A /* FYPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA149E661F418E4E00DEFF5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA149E6F1F418E4E00DEFF5A /* FYPickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA149E611F418E4E00DEFF5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA149E451F418E4E00DEFF5A /* FYPickerView */;
+			targetProxy = AA149E601F418E4E00DEFF5A /* PBXContainerItemProxy */;
+		};
+		AA149E6C1F418E4E00DEFF5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA149E451F418E4E00DEFF5A /* FYPickerView */;
+			targetProxy = AA149E6B1F418E4E00DEFF5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA149E521F418E4E00DEFF5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA149E531F418E4E00DEFF5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA149E571F418E4E00DEFF5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA149E581F418E4E00DEFF5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA149E711F418E4E00DEFF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA149E721F418E4E00DEFF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA149E741F418E4E00DEFF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FYPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanshiyi.FYPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA149E751F418E4E00DEFF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FYPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanshiyi.FYPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA149E771F418E4E00DEFF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FYPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanshiyi.FYPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYPickerView.app/FYPickerView";
+			};
+			name = Debug;
+		};
+		AA149E781F418E4E00DEFF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FYPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanshiyi.FYPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYPickerView.app/FYPickerView";
+			};
+			name = Release;
+		};
+		AA149E7A1F418E4E00DEFF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FYPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanshiyi.FYPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FYPickerView;
+			};
+			name = Debug;
+		};
+		AA149E7B1F418E4E00DEFF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FYPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanshiyi.FYPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FYPickerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA149E411F418E4E00DEFF5A /* Build configuration list for PBXProject "FYPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA149E711F418E4E00DEFF5A /* Debug */,
+				AA149E721F418E4E00DEFF5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA149E731F418E4E00DEFF5A /* Build configuration list for PBXNativeTarget "FYPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA149E741F418E4E00DEFF5A /* Debug */,
+				AA149E751F418E4E00DEFF5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA149E761F418E4E00DEFF5A /* Build configuration list for PBXNativeTarget "FYPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA149E771F418E4E00DEFF5A /* Debug */,
+				AA149E781F418E4E00DEFF5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA149E791F418E4E00DEFF5A /* Build configuration list for PBXNativeTarget "FYPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA149E7A1F418E4E00DEFF5A /* Debug */,
+				AA149E7B1F418E4E00DEFF5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA149E3E1F418E4E00DEFF5A /* Project object */;
+}
